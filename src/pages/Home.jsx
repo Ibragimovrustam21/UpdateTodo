@@ -10,7 +10,7 @@ export const Home = () => {
 
   useEffect(() => {
     setNeedChangeUser(null) // add--member sahifasidagi formani dastlabki holatiga o`tkazadi
-  }, [])
+  }, [setNeedChangeUser])
 
   // userni delete qiladi
   const deleteHandler = (id) => deleteUser(id)
@@ -187,7 +187,7 @@ export const Home = () => {
                       <td>{contractNumber}</td>
                       <td>{sale}</td>
                       <td>
-                        <Link to='/' className={`observe ${status == 'o`qimoqda' ? 'green' : 'red'}`}>
+                        <Link to='/' className={`observe ${status === 'o`qimoqda' ? 'green' : 'red'}`}>
                           {copyDoc}
                         </Link>
                       </td>

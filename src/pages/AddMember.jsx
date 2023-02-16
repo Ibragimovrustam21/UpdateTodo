@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { MyButton } from '../components/Button/MyButton'
 import { UserContext } from '../context/user.context'
 import './addMember.scss'
@@ -23,7 +23,7 @@ export const AddMember = () => {
   useEffect(() => {
     if (needChangeUser) setUser(needChangeUser) // agar o`zgartiriladigan user bo`lsa setUser qivoradi
     else setUser(defaultValue) // aks holda defaultUser setUser qilib yuboriladi
-  }, [])
+  }, [needChangeUser])
 
   const createNewUser = (e) => {
     e.preventDefault()
