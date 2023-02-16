@@ -1,0 +1,35 @@
+export const userData = [
+  {
+    id: 1,
+    name: 'Ibragimov Rustam',
+    phone: '+998934342110',
+    otherPhone: '+998934342110',
+    date: '06.02.2023',
+    contractNumber: 'ITC-01/1',
+    sale: '10%',
+    copyDoc: 'ko`rish',
+    status: 'o`qimoqda',
+  },
+  {
+    id: 2,
+    name: 'Ikromov Bahodir',
+    phone: '+998934342110',
+    otherPhone: '+998934342110',
+    date: '06.02.2023',
+    contractNumber: 'ITC-01/1',
+    sale: '10%',
+    copyDoc: 'ko`rish',
+    status: 'chetlatildi',
+  },
+  {
+    id: 3,
+    name: 'Amonov Behruz',
+    phone: '+998934342110',
+    otherPhone: '+998934342110',
+    date: '06.02.2023',
+    contractNumber: 'ITC-01/1',
+    sale: '10%',
+    copyDoc: 'ko`rish',
+    status: 'bitirgan',
+  }
+]

@@ -1,0 +1,52 @@
+.add__member--page {
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgb(57, 20, 156);
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    width: 370px;
+
+    .input__box {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+
+      label {
+        display: block;
+        width: 150px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 10px;
+        color: #fff;
+      }
+
+      input {
+        width: calc(100% - 150px);
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+      }
+
+      select {
+        width: calc(100% - 150px);
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+      }
+    }
+
+    .btn {
+      margin-top: 20px;
+      border: 1px solid #fff;
+
+      &:disabled {
+        cursor: no-drop;
+      }
+    }
+  }
+}

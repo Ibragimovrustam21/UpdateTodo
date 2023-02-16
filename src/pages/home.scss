@@ -1,0 +1,133 @@
+.home__page {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+
+  .home__menu--block {
+    width: 22%;
+    background-color: rgb(57, 20, 156);
+    padding: 10px;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+
+    .home__menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      .home__menu--list {
+        padding: 8px;
+
+        a {
+          color: #fff;
+          font-size: 14px;
+          text-transform: uppercase;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  .home__table--block {
+    width: 78%;
+
+    .home__table--header {
+      height: 50px;
+      width: 100%;
+      background-color: rgb(57, 20, 156);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+
+      .category__name {
+        h3 {
+          color: rgb(47, 187, 42);
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+      }
+
+      .category__info {
+        .category__info--list {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          align-items: center;
+
+          .category__info--item {
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 15px;
+            color: rgb(47, 187, 42);
+
+            svg {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .home__table {
+      margin-top: 5px;
+
+      table {
+        width: 100%;
+        font-size: 12px;
+        color: #ffffffd2;
+        text-transform: uppercase;
+        border-spacing: 0;
+        font-weight: bold;
+
+        tr:nth-child(odd) {
+          background-color: rgb(57, 20, 156);
+        }
+
+        tr {
+          height: 40px;
+
+          td {
+            text-align: center;
+
+            .observe {
+              text-decoration: none;
+              color: #fff;
+              padding: 10px;
+              border-radius: 8px;
+            }
+
+            .btn__icon--box {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .btn__icon {
+                border: none;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 6px;
+                padding: 8px 10px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

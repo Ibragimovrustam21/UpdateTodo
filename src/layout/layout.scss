@@ -1,0 +1,12 @@
+.layout {
+  .layout__body {
+    display: flex;
+
+    .layout__children {
+      width: 100%;
+      padding: 15px;
+      background-color: rgba(4, 22, 78, 0.966);
+      border-radius: 10px 0 0 0;
+    }
+  }
+}

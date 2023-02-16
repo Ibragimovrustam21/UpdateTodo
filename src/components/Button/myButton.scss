@@ -1,0 +1,30 @@
+.btn {
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
+}
+
+
+.green {
+  background: rgb(47, 187, 42);
+}
+
+.red {
+  background: rgb(235, 68, 68);
+}
+
+.blue {
+  background: rgb(59, 59, 221);
+}
