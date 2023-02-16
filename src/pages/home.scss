@@ -92,7 +92,11 @@
         border-spacing: 0;
         font-weight: bold;
 
-        tr:nth-child(odd) {
+        thead {
+          background-color: rgb(57, 20, 156);
+        }
+
+        tr:nth-child(even) {
           background-color: rgb(57, 20, 156);
         }
 
